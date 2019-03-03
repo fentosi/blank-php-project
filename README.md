@@ -1,6 +1,6 @@
 # Blank PHP project
 
-This is a blank project that you can use to start a web project. 
+This is a blank project that you can use to start a web project. Supports PHP 7.
 
 You need to have [Composer](https://getcomposer.org/) to install dependency for the tests.
 
