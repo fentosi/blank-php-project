@@ -1,8 +1,8 @@
 <?php 
 
 interface iFoo {
-    public function setString(string $string);
-    public function trimValue(string $string);
+    public function setString(string $string):void;
+    public function trimValue(string $string):string;
 }
 
 ?>

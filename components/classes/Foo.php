@@ -1,16 +1,16 @@
 <?php 
 
 class Foo implements iFoo {
-    private $value;
+    public $string;
 
     public function __construct() {
     }
 
-    public function setString(string $string) {
-        $this->$value = $string;
+    public function setString(string $string):void {
+        $this->string = $string;
     }
 
-    public function trimValue(string $string) {
+    public function trimValue(string $string):string {
         return trim($string);
     }
 }

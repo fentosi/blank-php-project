@@ -8,7 +8,7 @@ class Bar {
     }
 
     public function logValue(string $string) {
-        var_dump($this->foo->trimValue($string));
+        echo ($this->foo->trimValue($string));
     }
 }
 
